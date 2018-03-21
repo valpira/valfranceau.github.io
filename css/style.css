@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color: #666666;
+	background-color:  rgb(255, 0, 0);
+	background-image: url('../images/daph.png');
+	background-attachment: fixed;
+	font-family: 'gorgia', sans-serif;
+	font-size: 20px;
+	text-align:center;
+}
+
+h1 {
+	color: rgb(0, 0, 255)
+	;
+	font-size: 3em;
+	font-weight: 100;
+	padding-bottom: .2em;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: 100;
+	line-height: 1.2em;
+	padding-bottom: .5em;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 700;
+	padding-top: 1em;
+	padding-bottom: .5em;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #FFF;
+	font-size: 1em;
+	font-weight: 700;
+	padding-bottom: 2em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+p {
+	font-family: 'Lora', serif;
+	line-height: 1.6em;
+	padding-bottom: .5em;
+}
+
+a {
+	color:inherit;
+}
+
+a:hover {
+	color: #99CCFF;
+}
+
+img {
+	margin: 2%;
+	width: auto;
+}
+
+section {
+	padding: 4% 5%;
+}
+
+
+#splash {
+	background-color: lightskyblue;
+}
+
+.intro {
+	color: #FFF;
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+nav {
+	width:100%;
+	padding: 2% 0;
+	border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+nav img {
+	width: 75%;
+	margin:0;
+}
+
+nav a {
+	width: 23%;
+	display:inline-block;
+	font-weight: 700;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #99CC87;
+}
+
+#projects {
+	/*padding: 2em;*/
+	border-bottom: 1px solid #CCC;
+	clear: both;
+}
+
+#projects img {
+	width: 30%;
+	margin: 1%;
+}
+
+.border {
+	border: 1px solid #CCC;
+}
+
+#about {
+	border-bottom: 1px solid #CCC;
+}
+
+#bio {
+	margin-right: 5%;
+	text-align: left;
+	width: 70%;
+	float: left;
+}
+
+.columns {
+	width: 46%;
+	margin-right: 4%;
+	float: left;
+	text-align: left;
+}
+
+
+#about img {
+	margin:1%;
+	width: 23%;
+	float: left;
+}
+
+
+li {
+	font-family: 'Lora', serif;
+	font-size: .9em;
+	line-height: 1.2em;
+	margin-left: 20px;
+	padding-bottom: .5em;
+}
+
+
+.cta {
+	background: #99CC99;
+	font-size: .9em;
+	color: #fff;
+	display:inline-block;
+	font-weight: 700;
+	margin-top: 2em;
+	padding:.9em 1.6em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: .5em;
+}
+
+.cta:hover {
+	background-color: #99CCFF;
+	color: #FFF;
+}
+
+#contact h2 {
+	padding-bottom:0;
+}
+
+.projectpagenav {
+	padding: 1% 3%;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+}
+
+.namenav {
+	text-align:left;
+	width: 30%;
+	float: left;
+}
+
+.namenav img {
+	width: auto;
+	vertical-align: middle;
+}
+
+.namenav h3 {
+	padding-left: 10px;
+	display:inline;
+}
+
+.namenav a {
+	display: inline;
+	padding:0;
+}
+
+.navigation {
+	padding: 1.2% 0;
+	width: 70%;
+	text-align:right;
+	float:left;
+}
+
+.navigation a {
+	font-size: .8em;
+	display: inline;
+	padding: 1% 1%;
+}
+
+.projectdeets {
+	border-bottom: 1px solid #CCC;
+}
+
+.projectdeets h2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.projectdeets h3 {
+	padding-top: 0;
+	padding-bottom: .5em;
+}
+
+.projectdeets p {
+	width: 80%;
+	text-align:justify;
+	margin: 0 auto;
+}
+
+.projectdeets img {
+	padding: 5% auto;
+	width:70%;
+}
+
+.clearfix:after {
+ 	visibility: hidden;
+ 	display: block;
+ 	font-size: 0;
+ 	content: " ";
+ 	clear: both;
+ 	height: 0;
+}
+
+.wrapper {
+	background:#fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+	margin:auto;
+	width:85%;
+	max-width:1200px;
+	padding:0em;
+}
+
+@media screen and (max-width: 1000px) {
+	.columns {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.namenav h3 {
+		display: none;
+	}
+	.navigation {
+		padding: 2% 0;
+	}
+	.projectdeets p {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	body {
+		font-size: 16px;
+	}
+	.wrapper {
+		width: 95%;
+	}
+	.intro {
+		width: 100%;
+	}
+	#projects img {
+		width: 46%;
+		margin: 1%;
+	}
+	#bio {
+		margin-right: 0;
+		margin-left: 3%;
+		width: 100%;
+		padding-right: 5%;
+		float: none;
+	}
+	#about img {
+		display: none;
+	}
+	.projectdeets img {
+		width:90%;
+	}
+	.projectdeets h2 {
+		width: 90%;
+	}
+
+}
+
+@media screen and (max-width: 590px) {
+	h1 {
+		font-size: 2.5em;
+		padding-bottom: .2em;
+	}
+	h4 {
+		letter-spacing: 0;
+	}
+	nav img {
+		display: none;
+	}
+	nav {
+		padding: 0 0 3% 0;
+	}
+	nav a {
+		padding:2%;
+	}
+	.namenav img {
+		display:block;
+	}
+	.navigation {
+		padding: 3% 0 0 0;
+	}
+	.projectdeets p {
+		width: 100%;
+		text-align: left;
+	}
+	.projectdeets img {
+		width: 100%;
+	}
+	.projectdeets h2 {
+	 	width: 100%;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h2 {
+		font-size: 2em;
+		font-weight: 100;
+		padding-bottom: .5em;
+	}
+	#projects img {
+		width: 96%;
+		margin: 1%;
+	}
+	#contact {
+		text-align: left;
+		margin: 0 2%;
+	}
+
+}
+
+@media screen and (max-width: 410px) {
+	nav a {
+		width: 100%;
+		display:block;
+	}
+	.namenav {
+		text-align:center;
+		width:100%;
+		float:none;
+	}
+	.namenav img {
+		margin: 2% auto;
+		text-align:center;
+		display:block;
+	}
+	.navigation {
+		width:100%;
+		float:none;
+	}
+	.navigation a{
+		width: 100%;
+		margin: 2% auto;
+		text-align:center;
+		display:block;
+	}
+}
