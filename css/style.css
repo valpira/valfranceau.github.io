@@ -87,7 +87,11 @@ nav {
 }
 
 nav img {
+<<<<<<< HEAD
 	width: 65%;
+=======
+	width: 75%;
+>>>>>>> parent of 89e42cf... Revert "first web site"
 	margin:0;
 }
 
